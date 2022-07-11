@@ -17,6 +17,9 @@ body{
     text-decoration: none;
 }
 /* header styles */
+.menu-link.current{
+        color: var(--accent-color);
+}
 .logo{
         font-family: var(--second-font);
         font-weight: 700;
@@ -71,7 +74,7 @@ body{
 .modal-btn{
         font-weight: 700;
         font-size: 16px;
-        line-height: 1.58;
+        line-height: 1.88;
         letter-spacing: 0.06em;
         color: var(--third-color);
         cursor: pointer;
@@ -94,6 +97,9 @@ body{
         letter-spacing: 0.03em;
         color: var(--second-color);
         margin: 0;
+}
+.team{
+        background: #F5F4FA;
 }
 .second-head{
         font-weight: 700;
@@ -157,7 +163,7 @@ body{
         border-radius: 4px;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.62;
+        line-height: 1.63;
         text-align: center;
         letter-spacing: 0.03em;
         color:var(--text-color);
