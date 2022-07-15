@@ -4,6 +4,8 @@
     --second-color:#757575;
     --backg-color:#2F303A;
     --third-color:#FFFFFF;
+    --first-logo-color:#000000;
+    --backgr-team-btn-color:#F5F4FA;
     --second-font: 'Raleway', sans-serif;
 }
 body{
@@ -29,14 +31,14 @@ body{
         color: var(--accent-color);
 }
 .logo-color{
-    color: #000000;
+    color: var(--first-logo-color);
 }
 .menu-link{
         font-weight: 500;
-        font-size: 14px;
+        /* font-size: 14px; */
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #212121;
+        color: var(--text-color);
 }
 .menu-link:hover,
 .menu-link:focus
@@ -47,7 +49,7 @@ body{
 .contact-mail,
 .contact-tel {
         font-weight: 500;
-        font-size: 14px;
+        /* font-size: 14px; */
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--second-color);
@@ -85,21 +87,21 @@ body{
 }
 .head-desc{
         font-weight: 700;
-        font-size: 14px;
+        /* font-size: 14px; */
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin: 0;
 }
 .qual-descr{
-        font-size: 14px;
+        /* font-size: 14px; */
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--second-color);
         margin: 0;
 }
 .team{
-        background: #F5F4FA;
+        background:var(--backgr-team-btn-color) ;
 }
 .second-head{
         font-weight: 700;
@@ -130,11 +132,11 @@ body{
     background-color: var(--backg-color);
 }
 .logo-second-color{
-    color: #FFFFFF;
+color: var(--third-color);
 }
 .address-link{
         font-style: normal;
-        font-size: 14px;
+        /* font-size: 14px; */
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--third-color);
@@ -142,7 +144,7 @@ body{
 .mail-link,
 .tel-link{
         font-style: normal;
-        font-size: 14px;
+        /* font-size: 14px; */
         line-height: 1.71px;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
@@ -159,7 +161,8 @@ body{
 }
 /* portfolio page */
 .filter-btn{
-        background: #F5F4FA;
+        font-family: 'Roboto';
+        background:var(--backgr-team-btn-color);
         border-radius: 4px;
         font-weight: 500;
         font-size: 16px;
